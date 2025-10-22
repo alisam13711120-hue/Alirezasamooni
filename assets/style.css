@@ -32,7 +32,6 @@ a:hover{text-decoration:underline}
 .badge-row{display:flex;gap:10px;flex-wrap:wrap;margin:14px 0 0 0;padding:0;list-style:none}
 .badge-row li{padding:6px 10px;border-radius:999px;border:1px solid var(--border);background:var(--soft);color:var(--muted);font-weight:600;font-size:12px}
 .cta-row{display:flex;gap:10px;flex-wrap:wrap;margin-top:14px}
-
 .features .cards{display:grid;gap:12px;margin-top:18px}
 .cards.two{grid-template-columns:1fr 1fr}
 .cards.three{grid-template-columns:1fr 1fr 1fr}
@@ -56,3 +55,10 @@ a:hover{text-decoration:underline}
 .pdfwrap iframe{width:100%;height:100%;border:0}
 .site-footer{border-top:1px solid var(--border);padding:16px 0;margin-top:20px;color:var(--muted)}
 .muted{color:var(--muted)}
+
+
+/* Social icons */
+.social{display:flex;align-items:center;gap:10px;margin-left:6px}
+.sicon{display:inline-flex;align-items:center;justify-content:center;width:36px;height:36px;border:1px solid var(--border);background:var(--card);border-radius:10px;box-shadow:var(--shadow)}
+.sicon:hover{transform:translateY(-2px)}
+.social-footer{display:flex;gap:10px;align-items:center}
